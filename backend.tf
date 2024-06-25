@@ -1,8 +1,10 @@
+/*
 terraform {
   backend "s3" {
     bucket = "pooja-project-rds"
-    # key    = "path/to/my/key"
+    key    = "backend-tf"
     region = "us-east-1"
     
   }
 }
+*/
